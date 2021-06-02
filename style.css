@@ -3,8 +3,27 @@
     padding: 0;
 }
 
-header ul {
+body {
+    color: #CBC8DE;
+}
+
+nav {
+    background-color: #0B071A;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+
+nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+}
+
+.menu {
+    color: inherit;
+    text-decoration: none;
+}
+.menu:hover {
+    color: #C32020;
+    transition: 0.5s;
 }
