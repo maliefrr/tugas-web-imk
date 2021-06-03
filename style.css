@@ -5,12 +5,17 @@
 
 body {
     color: #CBC8DE;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 10px;
 }
 
 nav {
     background-color: #0B071A;
     padding: 10px;
     box-sizing: border-box;
+    top: 0;
+    left: 0;
+    position: fixed;
     }
 
 nav ul {
@@ -22,8 +27,28 @@ nav ul {
 .menu {
     color: inherit;
     text-decoration: none;
+    font-family: 'Teko',sans-serif;
+    font-size: 1.5rem;
 }
 .menu:hover {
     color: #C32020;
     transition: 0.5s;
+}
+
+.karosel-luar {
+    margin-top: 5%;
+}
+
+.karosel {
+    height: 50vh;
+}
+
+.newRelease {
+    margin-top: 1%;
+    font-family:'Fjalla One', sans-serif;
+    color: #060218;
+}
+
+.newRelease h1 {
+    text-align: center;
 }
