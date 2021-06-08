@@ -7,6 +7,7 @@ body {
     color: #CBC8DE;
     font-family: 'Noto Sans',sans-serif;
     font-size: 10px;
+    overflow-x: hidden;
 }
 
 nav {
@@ -16,6 +17,7 @@ nav {
     top: 0;
     left: 0;
     position: fixed;
+    z-index: 10000;
     }
 
 nav ul {
@@ -51,4 +53,88 @@ nav ul {
 
 .newRelease h1 {
     text-align: center;
+}
+
+.container {
+    margin-top: 2%;
+    width: 100vw;
+}
+
+.kol-1 {
+    height: 300px;
+    width: 400px;
+    background-position: center;
+    background-image: url(./gambar/gpu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+
+.kol-1:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.kol-2 {
+    height: 300px;
+    width: 400px;
+    background-position: center;
+    background-image: url(./gambar/mobo\ msi.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+
+
+.kol-2:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.kol-3 {
+    height: 300px;
+    width: 400px;
+    background-position: center;
+    background-image: url(./gambar/cpu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+.kol-3:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.row-2 {
+    position: relative;
+    left: 10%;
+    margin-top: 0.9%;
+}
+
+.kol-1-big {
+    height: 400px;
+    width: 500px;
+    background-position: center;
+    background-image: url(./gambar/rog-zephyrus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+.kol-1-big:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.kol-2-big {
+    height: 400px;
+    width: 500px;
+    background-position: center;
+    background-image: url(./gambar/monitor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+.kol-2-big:hover{
+    opacity: 1;
+    transition: 0.5s;
 }
