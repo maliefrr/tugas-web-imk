@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #CBC8DE;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 10px;
+    background-color: #060218;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #0B071A;
+    padding: 10px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu {
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+}
+
+.menu:hover {
+    color: #C32020;
+    transition: 0.5s;
+}
+
+.judul {
+    text-align: center;
+    color: cornsilk;
+    position: relative;
+    top: 80px;
+    font-family:'Fjalla One',sans-serif;
+    font-size: 2rem;
+}
+.container {
+    position: relative;
+    top: 150px;
+}
+
+.produk-top {
+    overflow: hidden;
+}
+
+.produk-top img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.produk-top img:hover {
+    transform: scale(1.2);
+}
+
+.produk-bottom {
+    position: relative;
+    top: 15px;
+}
+
+.produk-bottom p {
+    font-size : 1.1rem;
+}
+
+.full-display {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.30s ease-out;
+}
+
+.full-display.open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.display-inner {
+    background: #fff;
+    color: #060218;
+    height: 80%;
+    width: 75%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,0) scale(0.5);
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s ease-out;
+    padding: 20px;
+}
+
+.display-inner.open {
+    transform: translate(-50%, 0) scale(1);
+}
+
+.full-img {
+    position: relative;
+    height: 70%;
+    width: 50%;
+    padding-right: 10px;
+    top: 50%;
+    transform: translate(0,-50%);
+    box-sizing: border-box;
+}
+
+.detail li {
+    font-size: 1.3rem;
+}
+.caption {
+    color: #060218;
+}
+
+.row2 {
+    margin-top: 3%;
+}

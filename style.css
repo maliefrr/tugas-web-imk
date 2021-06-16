@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -156,4 +161,27 @@ header h1 {
     position: relative;
     top: 120px;
     font-family:'Fjalla One',sans-serif;
+}
+
+.container-product {
+    position: relative;
+    left: 5%;
+    margin-top: 11%;
+    margin-left: 10%;
+}
+
+.kolom-produk {
+    display: flex;
+    margin-top: 3%;
+}
+
+.container-katalog {
+    margin-right: 1%;
+}
+
+.katalog {
+    border: #8570cf solid 5px;
+    width: 15rem;
+    color: #0B071A;
+    font-size: 0.7rem;
 }
