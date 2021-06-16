@@ -9,7 +9,7 @@ const detail = document.querySelector('.fitur-detail');
 // detail dari data 
 const fitur = [['CPU Liquid cooler','Noise level : 6-30 dBA','Rated Voltage : 12 VDC'],
                 ['RGB Fan Cooler','Efisien dan tenang','Memiliki Ukuran 12 cm dengan Bearing Type Hydraulic','memiliki sistem anti-getaran'],
-                ['Graphics Processing GeForce','RTX™ 3090','Core Clock 1860 MHz (Reference Card: 1695 MHz)','CUDA® Cores 10496 ','Memory Clock 19500 MHz','Memory Size 24 GB','Memory Type GDDR6X','Memory Bus 384 bit Memory','Bandwidth (GB/sec) 936 GB/s','Digital max resolution 7680x4320'],
+                ['Graphics Processing GeForce','RTX™ 3090','Core Clock 1860 MHz (Reference Card: 1695 MHz)','CUDA® Cores 10496 ','Memory Clock 19500 MHz','Memory Size 24 GB','Memory Type GDDR6X','Memory Bus 384 bit Memory'],
                 ['Sound : stereo','Frequency Response : 20 Hz-20 KHz','Microphone size : 6x5 mm','Connectors : 2x3,5 mm jack','Cable Length : 2 m'],
                 ['Neodymium Drivers : 40mm','Headphone Frequency Response : 20-22000 Hz','Headphone Sensitivity : 98db','Headphone Impedance : 32 Ohm','Headphone Volume Control : On Ear Cup'],
                 ['RGB Colors LED Backlight','Standar Layout','Design For Gamer'],
