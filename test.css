@@ -136,3 +136,12 @@ nav ul {
 .row2 {
     margin-top: 3%;
 }
+
+.myForm {
+    display: flex;
+}
+
+.number {
+    width: 60%;
+    margin-left: 20px;
+}
