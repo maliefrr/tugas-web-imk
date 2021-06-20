@@ -164,10 +164,11 @@ footer {
     background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 11%, rgba(2, 0, 36, 1) 52%);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 11%, rgba(2, 0, 36, 1) 52%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#020024", GradientType=1);
+    padding: 20px;
 }
 
 .socmed {
-    padding-left: 10px;
+    text-align: center;
 }
 
 .whatsapp {
@@ -202,6 +203,12 @@ footer {
     color: #1DA1F2;
 }
 
+.icon {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 .icon a {
-    margin-right: 10px;
+    margin-right: 20px;
 }
