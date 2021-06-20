@@ -38,13 +38,6 @@ displayInner.forEach(img => {
     });
 });
 
-fullImg.addEventListener('click',(ev) => {
-    if(ev.target.classList.contains("full-display")){
-        fullImg.classList.remove("open");
-        inner.classList.remove('open');
-        detail.innerHTML = ''
-    }
-})
 
 const beli = document.querySelector(".beli");
 const form = document.querySelector(".myForm")
@@ -59,5 +52,14 @@ beli.addEventListener('click',(ev)=> {
         alert(`Pesanan Anda sedang diproses,Terimakasih telah membeli produk kami`);
     }else{
         ev.target.setCustomValidity("Form tidak boleh kosong");
+    }
+});
+
+fullImg.addEventListener('click',(ev) => {
+    if(ev.target.classList.contains("full-display")){
+        fullImg.classList.remove("open");
+        inner.classList.remove('open');
+        detail.innerHTML = '';
+        jumlahBeli.value = '';
     }
 })
