@@ -43,17 +43,22 @@ const beli = document.querySelector(".beli");
 const form = document.querySelector(".myForm")
 const jumlahBeli = document.querySelector(".number");
 
-function handleForm(event) { event.preventDefault(); } 
+function handleForm(event) { 
+    event.preventDefault(); 
+    beli.addEventListener('click',(ev)=> {
+        console.log(jumlahBeli.value);
+        if(parseInt(jumlahBeli.value) > 0){
+            alert(`Pesanan Anda sedang diproses,Terimakasih telah membeli produk kami`);
+            form.reset()
+        }
+        else{
+            ev.target.setCustomValidity("Form tidak boleh kosong atau berisi nilai negatif");
+            form.reset();
+        }
+    });
+} 
 form.addEventListener('submit', handleForm);
 
-beli.addEventListener('click',(ev)=> {
-    console.log(jumlahBeli.value);
-    if(jumlahBeli.value.length !== 0){
-        alert(`Pesanan Anda sedang diproses,Terimakasih telah membeli produk kami`);
-    }else{
-        ev.target.setCustomValidity("Form tidak boleh kosong");
-    }
-});
 
 fullImg.addEventListener('click',(ev) => {
     if(ev.target.classList.contains("full-display")){
